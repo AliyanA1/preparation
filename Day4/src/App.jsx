@@ -1,9 +1,18 @@
 import React from 'react'
+import Card from './Components/Card'
+import { data } from './Data/Data'
 
 const App = () => {
   return (
-    <div className='h-screen bg-gray-900 flex items-center justify-center'>
-    <h1 className='text-2xl font-mono text-white'>Welcome to day4 </h1>
+    <div className='min-h-screen bg-gray-900 flex flex-row flex-wrap items-center justify-center gap-4 p-4'>
+    {
+      data.map((card)=>(
+        <Card  key={card.id}
+         id={card.id} title={card.title} discription={card.discription} 
+        imgUrl={card.imgUrl}
+        />
+      ))
+    }
     </div>
   )
 }

@@ -1,9 +1,12 @@
 import React from 'react'
+import Login from './Components/login'
+import LoginCard from './Components/testLogin'
 
 const App = () => {
   return (
-    <div className='h-screen flex items-center justify-center bg-gray-900'>
-      <h1 className='text-2xl font-mono text-white'>Day5</h1>
+    <div className='h-screen flex items-center justify-center '>
+       <Login/>
+       {/* <LoginCard/> */}
       </div>
   )
 }

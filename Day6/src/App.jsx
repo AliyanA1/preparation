@@ -1,11 +1,11 @@
 import React from 'react'
-import TextAreaCounter from './Components/textArea'
+import Textarea from './Components/textArea'
 
 const App = () => {
   return (
     <div className='h-screen flex justify-center items-center bg-gray-900'>
 
-      <TextAreaCounter/>
+      <Textarea/>
     </div>
   )
 }

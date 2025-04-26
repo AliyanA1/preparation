@@ -1,11 +1,9 @@
 import React from 'react'
-import Textarea from './Components/textArea'
 
 const App = () => {
   return (
     <div className='h-screen flex justify-center items-center bg-gray-900'>
-
-      <Textarea/>
+      <h1 className='text-2xl text-white font-mono'>Hey its day7 of learning React and  revising</h1>
     </div>
   )
 }

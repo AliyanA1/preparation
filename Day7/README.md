@@ -1,1 +1,1 @@
-Learning and practcing React 
+Learning and practicing React 
